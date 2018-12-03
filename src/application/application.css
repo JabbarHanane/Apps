@@ -1,0 +1,217 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#root {
+ -fx-background-color:  linear-gradient(white,white);
+ -fx-border-color: white;
+ -fx-border-radius: 20;
+ -fx-padding: 10 10 10 10;
+ -fx-background-radius: 20;
+ 
+}
+
+
+
+#bp {
+ -fx-background-color:  linear-gradient(Black,Silver);
+ 
+}
+
+
+#btnLogin {
+    -fx-background-radius: 30, 30, 29, 28;
+    -fx-padding: 3px 10px 3px 10px;
+    -fx-background-color: linear-gradient(black,Silver);
+}
+#entete {
+   -fx-background-color:  linear-gradient(Black,Silver);
+    -fx-border-color: white;       
+
+   
+}
+#text {
+ -fx-fill:  linear-gradient(white,white);
+}
+
+#gridPane {
+ -fx-fill:  linear-gradient(Navy ,Navy);
+}
+
+#valider {
+	
+ -fx-background-radius: 30, 30, 29, 28;
+    -fx-padding: 7px 10px 5px 10px;
+    -fx-background-color: linear-gradient(TEAL,TEAL);	
+}
+#valider1 {
+	
+   -fx-background-radius: 30, 30, 29, 28;
+    -fx-padding: 15px 10px 10px 10px;
+    -fx-background-color: linear-gradient(Teal,Teal);	
+    -fx-text-fill : white;
+}
+#root1 {
+ -fx-background-color:  linear-gradient(white,white);
+ -fx-border-color: white;
+ -fx-border-radius: 20;
+ -fx-padding: 10 10 10 10;
+ -fx-background-radius: 20;
+ 
+}
+#Rejeter {
+	
+ -fx-background-radius: 30, 30, 29, 28;
+    -fx-padding: 10px 10px 5px 10px;
+    -fx-background-color: linear-gradient(TEAL,TEAL);	
+}
+#val {
+	
+ -fx-background-radius: 30, 30, 29, 28;
+    -fx-padding: 5px 5px 5px 5px;
+    -fx-background-color: linear-gradient(TEAL,TEAL);	
+}
+#Retour {
+	
+ -fx-background-radius: 30, 30, 29, 28;
+    -fx-padding: 10px 10px 5px 10px;
+    -fx-background-color: linear-gradient(Teal,Teal);	
+}
+#lb {
+ -fx-fill:  linear-gradient(Blue,Blue);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#table{
+   -fx-background-color: transparent;
+}
+
+#table:focused{
+    -fx-background-color: transparent;
+} 
+
+
+
+#table .column-header-background{
+    -fx-background-color: linear-gradient(#131313 0%, #424141 100%);
+}
+
+#table .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+#table .column-header {
+    -fx-background-color: transparent;
+}
+
+
+
+#table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #616161;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+#table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, #0000FF;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */  
+}
+
+#table-row-cell:selected {
+    -fx-background-color: #005797;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+
+#table > .virtual-flow > .scroll-bar:vertical,
+#table > .virtual-flow > .scroll-bar:vertical > .track,
+#table > .virtual-flow > .scroll-bar:vertical > .track-background, 
+#table > .virtual-flow > .scroll-bar:horizontal,
+#table > .virtual-flow > .scroll-bar:horizontal > .track,
+#table > .virtual-flow > .scroll-bar:horizontal > .track-background {
+    -fx-background-color: transparent;
+}
+
+
+
+.table > .virtual-flow > .scroll-bar > .increment-button, 
+.table > .virtual-flow > .scroll-bar > .decrement-button {
+    -fx-opacity: 0;
+}
+
+
+
+
+
+#button{
+    -fx-border-width: 0px 0px 0px 5px;
+    -fx-border-radius: 0px;
+    -fx-background-radius: 0px;
+ 
+    -fx-text-fill: #4E4F52;
+   
+    -fx-background-color: white;
+  
+    -fx-font-weight:700;
+    -fx-font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+
+#button:focused{
+    -fx-border-width: 0px 0px 0px 0px;
+    /*    -fx-text-fill: #FFFFFF;*/
+
+}
+
+
+#button:pressed{
+    -fx-text-fill: white;
+}
+#button:hover{
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+
+#scroll {
+
+    /*    -fx-background-insets: 0;*/
+    -fx-padding: 0;
+    -fx-background:#282E34;
+}
+
+
+#menu{
+  -fx-background-color: gray;
+  -fx-border-color:  #f0cd90;
+ -fx-border-width: 2
+
+}
+
+#menu .label {
+    -fx-font-size:15 pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: #dedede;
+
+}
+
+
+#menu:hover {
+    -fx-background-color: black;
+}
+
+
+
+
+
+
+
+
